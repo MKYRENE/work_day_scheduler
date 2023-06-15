@@ -40,7 +40,7 @@ The Work Day Scheduler is a web application that allows you to plan and schedule
 
 ![Alt text](Assets/05-third-party-apis-homework-demo.gif)
 
-You can view a live demo of the Work Day Scheduler [here](link-to-live-demo).
+You can view a live demo of the Work Day Scheduler [here](https://mkyrene.github.io/work_day_scheduler/).
 
 ## License
 
@@ -48,7 +48,6 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-- [Bootstrap](https://getbootstrap.com)
 - [jQuery](https://jquery.com)
 - [Day.js](https://day.js.org)
 
