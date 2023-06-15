@@ -1,99 +1,57 @@
-# 05 Third-Party APIs: Work Day Scheduler
+# Work Day Scheduler
 
-## Your Task
+A simple calendar app for scheduling your work day.
 
-Create a simple calendar application that allows a user to save events for each hour of a typical working day (9am&ndash;5pm) by modifying starter code. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery.
+## Description
 
-You'll need to use the [Day.js](https://day.js.org/en/) library to work with date and time. Be sure to read the documentation carefully and concentrate on using Day.js in the browser.
+The Work Day Scheduler is a web application that allows you to plan and schedule your work day. It provides an intuitive interface where you can add, edit, and save tasks for different time blocks throughout the day. The app also highlights past, present, and future time blocks to help you stay organized and manage your time effectively.
 
-## User Story
+## Features
 
-```md
-AS AN employee with a busy schedule
-I WANT to add important events to a daily planner
-SO THAT I can manage my time effectively
-```
+- Add and edit tasks for specific time blocks
+- Save tasks to local storage for persistence
+- Automatically update time block colors based on the current time
+- User-friendly interface with intuitive design
+- Responsive layout for mobile and desktop devices
 
-## Acceptance Criteria
+## Technologies Used
 
-```md
-GIVEN I am using a daily planner to create a schedule
-WHEN I open the planner
-THEN the current day is displayed at the top of the calendar
-WHEN I scroll down
-THEN I am presented with timeblocks for standard business hours of 9am&ndash;5pm
-WHEN I view the timeblocks for that day
-THEN each timeblock is color coded to indicate whether it is in the past, present, or future
-WHEN I click into a timeblock
-THEN I can enter an event
-WHEN I click the save button for that timeblock
-THEN the text for that event is saved in local storage
-WHEN I refresh the page
-THEN the saved events persist
-```
+- HTML
+- CSS
+- JavaScript
+- Bootstrap
+- jQuery
+- Day.js
 
-The following animation demonstrates the application functionality:
+## Usage
 
-<!-- @TODO: create ticket to review/update image) -->
-![A user clicks on slots on the color-coded calendar and edits the events.](./Assets/05-third-party-apis-homework-demo.gif)
+1. Clone or download the repository to your local machine.
+2. Open the `index.html` file in your preferred web browser.
+3. The current date and time will be displayed in the header.
+4. Each time block represents a specific hour of the day.
+5. Enter your tasks or appointments in the corresponding time block textarea.
+6. Click the save button to save your tasks.
+7. Refresh the page, and your saved tasks will be loaded automatically.
+8. The time block colors will update dynamically based on the current time.
 
-## Grading Requirements
+#### Repo Link: https://github.com/MKYRENE/work_day_scheduler.git
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+## Demo
 
-This Challenge is graded based on the following criteria:
+![Alt text](Assets/05-third-party-apis-homework-demo.gif)
 
-### Technical Acceptance Criteria: 40%
+You can view a live demo of the Work Day Scheduler [here](link-to-live-demo).
 
-* Satisfies all of the above acceptance criteria plus the following:
+## License
 
-  * Uses a date utility library to work with date and time
+This project is licensed under the [MIT License](LICENSE).
 
-### Deployment: 32%
+## Acknowledgements
 
-* Application deployed at live URL
+- [Bootstrap](https://getbootstrap.com)
+- [jQuery](https://jquery.com)
+- [Day.js](https://day.js.org)
 
-* Application loads with no errors
+## Contact
 
-* Application GitHub URL submitted
-
-* GitHub repo contains application code
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate
-
-* Application user interface style is clean and polished
-
-* Application resembles the mock-up functionality provided in the Challenge instructions
-
-### Repository Quality: 13%
-
-* Repository has a unique name
-
-* Repository follows best practices for file structure and naming conventions
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages
-
-* Repository contains quality README file with description, screenshot, and link to deployed application
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application
-
-* The URL of the GitHub repository, with a unique name and a README describing the project
-
-- - -
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+If you have any questions,
