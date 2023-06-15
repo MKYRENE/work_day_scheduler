@@ -34,7 +34,7 @@ The Work Day Scheduler is a web application that allows you to plan and schedule
 7. Refresh the page, and your saved tasks will be loaded automatically.
 8. The time block colors will update dynamically based on the current time.
 
-#### Repo Link: https://github.com/MKYRENE/work_day_scheduler.git
+#### Site Link: https://mkyrene.github.io/work_day_scheduler/
 
 ## Demo
 
