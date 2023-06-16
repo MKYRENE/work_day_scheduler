@@ -1,5 +1,3 @@
-
-
 $(function () {
   // Adding an event listener for click events on the save button
   $(".saveBtn").on("click", function () {
@@ -16,7 +14,7 @@ $(function () {
       var blockTime = $(this).attr("id");
       var timeBlockHour = parseInt($(this).attr("id").split("-")[1]); // Extract the hour from the time block id
       var description = localStorage.getItem(blockTime);
-      
+
       if (description) {
         $(this).find(".description").val(description);
       }
@@ -30,20 +28,9 @@ $(function () {
     });
   }
 
-
-
-
   updateTimeBlocks(); // Call the function to apply the initial class
-
-
 
   // Display the current date in the header of the page
   var currentDate = dayjs().format("dddd, MMMM D, YYYY");
   $("#currentDay").text(currentDate);
 });
-
-
-
-
-
-
